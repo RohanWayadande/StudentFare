@@ -9,12 +9,13 @@
 #nt {
     list-style-type: none; /* Removes bullet points from the list */
     margin: 0;
+    
     padding: 0;
     display: flex; /* Displays the list items in a row */
     justify-content: space-around; /* Aligns items to the right */
     /* Dark background color for the navbar */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect for depth */
-    font-size: 30px; color: #fff;background-color: #000000;
+    font-size: 20px; color: #fff;background-color: #000000;
 }
 body {
     font-family: 'Helvetica', sans-serif;
