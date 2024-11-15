@@ -1,0 +1,370 @@
+/* Global Settings */
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom:5px;width:50px;height:50px;
+  }
+
+#nt {
+    list-style-type: none; /* Removes bullet points from the list */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Displays the list items in a row */
+    justify-content: space-around; /* Aligns items to the right */
+    /* Dark background color for the navbar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect for depth */
+    font-size: 30px; color: #fff;background-color: #000000;
+}
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: #333;
+    background-color: #4e4646;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Reset for Section Padding and Margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+body {
+    display: block;
+    margin: 0px;
+}
+/* Ensure sections are full-width and centered */
+section {
+    padding: 50px 0; /* Adjust padding as needed */
+    width: 100%;
+    text-align: center;
+}
+/* Ensure the logo is circular */
+.
+
+/* For the Sectors section, center the content */
+
+
+/* Centering Section Heading */
+.section-heading {
+    margin-bottom: 20px;
+}
+
+.section-heading h2 {
+    font-size: 2.5rem;  /* Adjust as needed */
+    font-weight: bold;
+}
+
+/* Styling for the paragraph in Sectors section */
+.special-area .row p {
+    font-size: 1.2rem;
+    color: #555;  /* Adjust text color as needed */
+    max-width: 800px;  /* Optional: restrict the paragraph width */
+    line-height: 1.5;
+    margin: 0 auto; /* Centers the paragraph */
+}
+
+/* Styling for the Midline Divider (Blue Line) */
+hr.section-divider {
+    border: 1px solid #007bff;  /* Blue color for the divider */
+    width: 80%;  /* Adjust the width of the divider */
+    margin: 30px auto;  /* Center the divider horizontally */
+}
+.
+  
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+}
+
+a:hover {
+    color: #1e90ff;
+}
+
+/* Ensure sections are full-width and centered */
+section {
+    padding: 50px 0; /* Adjust padding as needed */
+    width: 100%;
+    text-align: center;
+}
+
+/* For the Sectors section, center the content */
+.special-area {
+    display: flex;
+    flex-direction: column;  /* Stacks content vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center;     /* Centers content horizontally */
+    padding-top: 50px;       /* Padding on top */
+    padding-bottom: 50px;    /* Padding at the bottom */
+}
+
+/* Centering Section Heading */
+.section-heading {
+    margin-bottom: 10px;
+}
+
+.section-heading h2 {
+    font-size: 2.5rem;  /* Adjust as needed */
+    font-weight: bold;
+}
+
+/* Styling for the paragraph in Sectors section */
+.special-area .row p {
+    font-size: 1.2rem;
+    color: #555;  /* Adjust text color as needed */
+    max-width: 800px;  /* Optional: restrict the paragraph width */
+    line-height: 1.5;
+    margin: 0 auto; /* Centers the paragraph */
+}
+
+/* Styling for the Midline Divider (Blue Line) */
+hr.section-divider {
+    border: 1px solid #007bff;  /* Blue color for the divider */
+    width: 80%;  /* Adjust the width of the divider */
+    margin: 30px auto;  /* Center the divider horizontally */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+    color:red;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: skyblue;
+    border-bottom: 2px solid skyblue;
+}
+
+/* Welcome Section */
+.wellcome_area {
+    background: #000000;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.wellcome-heading h2 {
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.wellcome-heading p {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+/* About Us Section */
+.special-area {
+    background-color: #faf4f4;
+    padding: 100px 0;
+}
+
+.section-heading h2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.line-shape {
+    width: 50px;
+    height: 4px;
+    background-color: #1e90ff;
+    margin: 10px auto;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Products Section */
+.awesome-feature-area {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.single-special {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.single-special:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.single-special img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.single-special h4 {
+    font-size: 24px;
+    color: #fffcfc;
+    margin-bottom: 15px;
+}
+
+.single-special p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Team Section */
+.our-Team-area {
+    background-color: hsl(0, 0%, 93%);
+    padding: 80px 0;
+}
+
+.single-team-member {
+    margin-bottom: 30px;
+}
+
+.member-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.member-text h4 {
+    font-size: 22px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.member-text p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Clients Section */
+#client {
+    background-color: hsl(0, 0%, 100%);
+    padding: 80px 0;
+}
+
+#client p {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Contact Section */
+.contact-area {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.contact-area .section-heading h2 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-area .contact-info p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.contact-area .contact-info span {
+    font-weight: bold;
+}
+
+/* Footer */
+.copyright-text {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.copyright-text a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.copyright-text a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+
+    .wellcome-heading h2 {
+        font-size: 40px;
+    }
+
+    .section-heading h2 {
+        font-size: 35px;
+    }
+
+    .single-special h4 {
+        font-size: 20px;
+    }
+
+    .single-special p {
+        font-size: 14px;
+    }
+
+    .member-text h4 {
+        font-size: 18px;
+    }
+
+    .member-text p {
+        font-size: 14px;
+    }
+}
+
