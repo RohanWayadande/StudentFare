@@ -22,7 +22,7 @@ body {
     color: #333;
     background-color: #4e4646;
     margin: 0;
-    padding: 0;
+    padding: 0; width:100%;
 }
 
 /* Global Reset for Section Padding and Margin */
